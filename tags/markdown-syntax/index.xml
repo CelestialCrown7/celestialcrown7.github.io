@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markdown Syntax on Hugo tranquilpeak theme</title>
+    <link>https://CelestialCrown7.github.io/tags/markdown-syntax/</link>
+    <description>Recent content in Markdown Syntax on Hugo tranquilpeak theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Aug 2020 17:36:41 -0500</lastBuildDate>
+    
+	<atom:link href="https://CelestialCrown7.github.io/tags/markdown-syntax/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Markdown Syntax</title>
+      <link>https://CelestialCrown7.github.io/2020/08/markdown-syntax/</link>
+      <pubDate>Mon, 03 Aug 2020 17:36:41 -0500</pubDate>
+      
+      <guid>https://CelestialCrown7.github.io/2020/08/markdown-syntax/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax.&lt;/p&gt;
+&lt;h1 id=&#34;headings&#34;&gt;Headings&lt;/h1&gt;
+&lt;p&gt;The following HTML &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; - &lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; elements represent six levels of section headings. &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; is the highest section level while &lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; is the lowest.&lt;/p&gt;
+&lt;h1 id=&#34;-h1&#34;&gt;# H1&lt;/h1&gt;
+&lt;h2 id=&#34;-h2&#34;&gt;## H2&lt;/h2&gt;
+&lt;h3 id=&#34;-h3&#34;&gt;### H3&lt;/h3&gt;
+&lt;h4 id=&#34;-h4&#34;&gt;#### H4&lt;/h4&gt;
+&lt;h5 id=&#34;-h5&#34;&gt;##### H5&lt;/h5&gt;
+&lt;h6 id=&#34;-h6&#34;&gt;###### H6&lt;/h6&gt;
+&lt;h1 id=&#34;blockquotes&#34;&gt;Blockquotes&lt;/h1&gt;
+&lt;p&gt;The blockquote element represents content that is quoted from another source. To quote something add &lt;code&gt;&amp;gt;&lt;/code&gt; before the quote.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;The greatest glory in living lies not in never falling, but in rising every time we fall.&amp;rdquo; -Nelson Mandela&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;tables&#34;&gt;Tables&lt;/h1&gt;
+&lt;p&gt;Tables can be used to organize information. The syntax looks like:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;| Header One     | Header Two     |&lt;/li&gt;
+&lt;li&gt;| :&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;- | :&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;- |&lt;/li&gt;
+&lt;li&gt;| Item One       | Item Two       |&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Name&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Age&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Bob&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Alice&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;23&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;code-blocks&#34;&gt;Code Blocks&lt;/h1&gt;
+&lt;p&gt;You can showcase your code inside of code blocks using backticks and curly brackets.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{
+  &amp;lt;!doctype html&amp;gt;
+&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
+&amp;lt;head&amp;gt;
+  &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
+  &amp;lt;title&amp;gt;Example HTML5 Document&amp;lt;/title&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+  &amp;lt;p&amp;gt;Test&amp;lt;/p&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;list-types&#34;&gt;List Types&lt;/h1&gt;
+&lt;h3 id=&#34;ordered-list&#34;&gt;Ordered List&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;First item.&lt;/li&gt;
+&lt;li&gt;Second item.&lt;/li&gt;
+&lt;li&gt;Third item.&lt;/li&gt;
+&lt;li&gt;So on &amp;hellip;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;unordered-list&#34;&gt;Unordered List&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;List item&lt;/li&gt;
+&lt;li&gt;Another item&lt;/li&gt;
+&lt;li&gt;And another item&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;bold&#34;&gt;Bold&lt;/h1&gt;
+&lt;p&gt;To bold something surround it with &lt;code&gt;**bold**&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;This sentence is now bold.&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&#34;italic&#34;&gt;Italic&lt;/h1&gt;
+&lt;p&gt;To italicize something surround it with &lt;code&gt;*italics*&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This sentence has been italicized.&lt;/em&gt;*&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

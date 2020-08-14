@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Terminal on Hugo tranquilpeak theme</title>
+    <link>https://CelestialCrown7.github.io/tags/terminal/</link>
+    <description>Recent content in Terminal on Hugo tranquilpeak theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Aug 2020 19:48:35 -0500</lastBuildDate>
+    
+	<atom:link href="https://CelestialCrown7.github.io/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Basic Terminal Commands</title>
+      <link>https://CelestialCrown7.github.io/2020/08/basic-terminal-commands/</link>
+      <pubDate>Mon, 03 Aug 2020 19:48:35 -0500</pubDate>
+      
+      <guid>https://CelestialCrown7.github.io/2020/08/basic-terminal-commands/</guid>
+      <description>&lt;p&gt;Here is a list of the most basic commands for terminal. To start using any of these commands, open terminal, type in the command, and press enter.&lt;/p&gt;
+&lt;h1 id=&#34;help&#34;&gt;Help&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;help&lt;/code&gt;-as the name suggests, you can type this command into the Terminal to get a list of different commands.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;man &amp;lt;command name&amp;gt;&lt;/code&gt;-similar to the previous command, this command tells you exactly what a command does (and gives you full documentation) without you having to search Google for it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;file-management&#34;&gt;File Management&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ls&lt;/code&gt;-lists all of the contents in the current directory. This command comes in handy if you don&amp;rsquo;t want to use the Finder to browse files—you can simply list them using this command in your Terminal.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd &amp;lt;directory name&amp;gt;&lt;/code&gt;-this command is used to change directories. If you write cd alone, you will move out of the current directory. After using ls (to see the directories), you can write the name of the directory you want to enter.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;changing-preferences&#34;&gt;Changing Preferences&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;defaults &amp;lt;setting to change&amp;gt;&lt;/code&gt;-this command is used to modify default system settings, some of which cannot be changed without using the terminal.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;caffeinate&lt;/code&gt;-as the name suggests, this command is used to prevent your Mac from dimming, turning off, or sleeping. To end this, all you need to do is press &lt;strong&gt;Control-C&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;text-editing&#34;&gt;Text Editing&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;vim &amp;lt;file name&amp;gt;&lt;/code&gt;-this is one of my favorites. You can edit text files using the default TextEdit (or any GUI based editor), but &lt;code&gt;vim&lt;/code&gt; is basically a command-line text editor—that is, it works entirely within the terminal.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;networking&#34;&gt;Networking&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ping &amp;lt;URL or IP Address&lt;/code&gt;-this command allows you to check the server response time of a specified URL or IP Address. This may not be useful for every developer, but it is nice to know.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;admin&#34;&gt;Admin&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sudo &amp;lt;action to perform&amp;gt;&lt;/code&gt;-a way to override your user&amp;rsquo;s privileges and become a superuser of the computer. You will be prompted for an admin password when you use it.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -3,19 +3,92 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://CelestialCrown7.github.io/archives/</loc>
+    <loc>https://CelestialCrown7.github.io/tags/arduino/</loc>
+    <lastmod>2020-08-05T12:15:51-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CelestialCrown7.github.io/categories/arduino/</loc>
+    <lastmod>2020-08-05T12:15:51-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://CelestialCrown7.github.io/categories/</loc>
+    <lastmod>2020-08-05T12:15:51-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CelestialCrown7.github.io/tags/coding/</loc>
+    <lastmod>2020-08-05T12:15:51-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CelestialCrown7.github.io/categories/coding/</loc>
+    <lastmod>2020-08-05T12:15:51-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://CelestialCrown7.github.io/</loc>
+    <lastmod>2020-08-05T12:15:51-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CelestialCrown7.github.io/2020/08/lcd-display-with-arduino/</loc>
+    <lastmod>2020-08-05T12:15:51-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CelestialCrown7.github.io/post/</loc>
+    <lastmod>2020-08-05T12:15:51-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://CelestialCrown7.github.io/tags/</loc>
+    <lastmod>2020-08-05T12:15:51-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CelestialCrown7.github.io/tags/books/</loc>
+    <lastmod>2020-08-03T19:57:54-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CelestialCrown7.github.io/categories/books/</loc>
+    <lastmod>2020-08-03T19:57:54-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CelestialCrown7.github.io/tags/fantasy/</loc>
+    <lastmod>2020-08-03T19:57:54-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CelestialCrown7.github.io/2020/08/top-5-book-series/</loc>
+    <lastmod>2020-08-03T19:57:54-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CelestialCrown7.github.io/2020/08/basic-terminal-commands/</loc>
+    <lastmod>2020-08-03T19:48:35-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CelestialCrown7.github.io/tags/terminal/</loc>
+    <lastmod>2020-08-03T19:48:35-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CelestialCrown7.github.io/tags/markdown-syntax/</loc>
+    <lastmod>2020-08-03T17:36:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CelestialCrown7.github.io/2020/08/markdown-syntax/</loc>
+    <lastmod>2020-08-03T17:36:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CelestialCrown7.github.io/archives/</loc>
   </url>
   
 </urlset>

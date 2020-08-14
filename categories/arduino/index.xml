@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arduino on Hugo tranquilpeak theme</title>
+    <link>https://CelestialCrown7.github.io/categories/arduino/</link>
+    <description>Recent content in Arduino on Hugo tranquilpeak theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 05 Aug 2020 12:15:51 -0500</lastBuildDate>
+    
+	<atom:link href="https://CelestialCrown7.github.io/categories/arduino/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>LCD Display with Arduino</title>
+      <link>https://CelestialCrown7.github.io/2020/08/lcd-display-with-arduino/</link>
+      <pubDate>Wed, 05 Aug 2020 12:15:51 -0500</pubDate>
+      
+      <guid>https://CelestialCrown7.github.io/2020/08/lcd-display-with-arduino/</guid>
+      <description>&lt;p&gt;In this article you will learn how to use an LCD Display to display things with your Arduino.&lt;/p&gt;
+&lt;h1 id=&#34;components&#34;&gt;Components&lt;/h1&gt;
+&lt;p&gt;The components you will need for this project are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Arduino Uno R3&lt;/li&gt;
+&lt;li&gt;LCD Display Module&lt;/li&gt;
+&lt;li&gt;10k Potentimeter&lt;/li&gt;
+&lt;li&gt;Breadboard&lt;/li&gt;
+&lt;li&gt;16 male-to-male jumper wires&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://CelestialCrown7.github.io/images/Arduino.jpg&#34; alt=&#34;Components&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;lcd-display&#34;&gt;LCD Display&lt;/h1&gt;
+&lt;p&gt;Your LCD display should have 16 pins coming out from the bottom.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://CelestialCrown7.github.io/images/LCDPins.jpg&#34; alt=&#34;LCD Pins&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Each pin has different functions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;VSS: Pin that connects to ground.&lt;/li&gt;
+&lt;li&gt;VDD: Pin that connects to a 5v power supply.&lt;/li&gt;
+&lt;li&gt;VO: Adjusts the contrast of the display.&lt;/li&gt;
+&lt;li&gt;RS: A register selecting pin that controls where your writing data goes in the LCD&amp;rsquo;s memory.&lt;/li&gt;
+&lt;li&gt;R/W: Read/write pin.&lt;/li&gt;
+&lt;li&gt;E: An enabling pin that, when supplied with low-level energy, causes the LCD module to carry out certain instructions.&lt;/li&gt;
+&lt;li&gt;D0-D7: Pins that read or write data.&lt;/li&gt;
+&lt;li&gt;A and K: Pins that control the LED backlight.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;connection-schematic&#34;&gt;Connection Schematic&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;https://CelestialCrown7.github.io/images/CS.jpg&#34; alt=&#34;Connection Schematic&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The LCD display needs 6 arduino pins, all set to be digital outputs. It also needs ground and 5v connections.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;wiring-diagram&#34;&gt;Wiring Diagram&lt;/h1&gt;
+&lt;p&gt;The wiring should look something like this.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://CelestialCrown7.github.io/images/WD.jpg&#34; alt=&#34;Wiring Diagram&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://CelestialCrown7.github.io/images/WD2.jpg&#34; alt=&#34;Wiring Diagram&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;code&#34;&gt;Code&lt;/h1&gt;
+&lt;p&gt;To use this code you should download the &lt;a href=&#34;https://www.arduino.cc/en/main/software&#34;&gt;Arduino IDE&lt;/a&gt; so you can load it onto your Arduino Uno. You will also need the &lt;a href=&#34;https://www.arduinolibraries.info/libraries/liquid-crystal&#34;&gt;Liquid Crystal&lt;/a&gt; library to run this code.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  // Include the Liquid Crystal library.
+  #include &amp;lt;LiquidCrystal.h&amp;gt;
+
+  // Initialize the library with the numbers of the interface pins.
+  LiquidCrystal lcd(7, 8, 9, 10, 11, 12);
+
+  void setup() {
+    // set up the LCD&#39;s number of columns and rows:
+    lcd.begin(16, 2);
+
+    // Print a message to the LCD. You can print whatever message you want.
+    lcd.print(&amp;quot;Hello, World!&amp;quot;);
+  }
+
+    void loop() {
+      // set the cursor to column 0, line 1
+      // (note: line 1 is the second row, since counting begins with 0):
+      // This is where the word or phrase will start.
+      lcd.setCursor(0, 1);
+  }
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;p&gt;If you did everything properly this is what you should end up with.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://CelestialCrown7.github.io/images/Complete.jpg&#34; alt=&#34;Finished Product&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
