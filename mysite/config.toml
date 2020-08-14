@@ -1,3 +1,5 @@
+publishdir = ".."
+
 # Tranquilpeak
 # Version : 0.4.8-BETA
 # Author : Thibaud Leprêtre
