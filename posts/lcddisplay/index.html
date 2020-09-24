@@ -9,7 +9,7 @@
 	<meta name="description" content="Just a place where I rant and sometimes say something smart">
 	<meta name="author" content="nuaNce">
 	<link rel="stylesheet" href="/css/style.css">
-	<link rel="stylesheet" href="/css/style.css?rnd=1600972605">
+	<link rel="stylesheet" href="/css/style.css?rnd=1600975014">
 	
 </head>
 <body>
@@ -40,7 +40,7 @@
 
 			<div>
 				<p>In this article you will learn how to use an LCD Display to display things with your Arduino.</p>
-<h1 id="components">Components</h1>
+<h2 id="components">Components</h2>
 <p>The components you will need for this project are:</p>
 <ul>
 <li>Arduino Uno R3</li>
@@ -51,9 +51,9 @@
 </ul>
 <p><img src="/images/Arduino.jpg" alt="Components"></p>
 <hr>
-<h1 id="lcd-display">LCD Display</h1>
+<h2 id="lcd-display">LCD Display</h2>
 <p>Your LCD display should have 16 pins coming out from the bottom.</p>
-<p><img src="/images/LCDPins.jpg" alt="LCD Pins"></p>
+<p><img src="https://i.postimg.cc/GtRWTtHV/Arduino-LCD-Set-Up-and-Programming-Guide-LCD-Pinout.png" alt="LCD Pins"></p>
 <p>Each pin has different functions:</p>
 <ul>
 <li>VSS: Pin that connects to ground.</li>
@@ -66,38 +66,38 @@
 <li>A and K: Pins that control the LED backlight.</li>
 </ul>
 <hr>
-<h1 id="connection-schematic">Connection Schematic</h1>
+<h2 id="connection-schematic">Connection Schematic</h2>
 <p><img src="/images/CS.jpg" alt="Connection Schematic"></p>
 <p>The LCD display needs 6 arduino pins, all set to be digital outputs. It also needs ground and 5v connections.</p>
 <hr>
-<h1 id="wiring-diagram">Wiring Diagram</h1>
+<h2 id="wiring-diagram">Wiring Diagram</h2>
 <p>The wiring should look something like this.</p>
 <p><img src="/images/WD.jpg" alt="Wiring Diagram"></p>
 <p><img src="/images/WD2.jpg" alt="Wiring Diagram"></p>
 <hr>
-<h1 id="code">Code</h1>
+<h2 id="code">Code</h2>
 <p>To use this code you should download the <a href="https://www.arduino.cc/en/main/software">Arduino IDE</a> so you can load it onto your Arduino Uno. You will also need the <a href="https://www.arduinolibraries.info/libraries/liquid-crystal">Liquid Crystal</a> library to run this code.</p>
-<pre><code>  // Include the Liquid Crystal library.
-  #include &lt;LiquidCrystal.h&gt;
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cpp" data-lang="cpp"><span style="color:#6272a4">// Include the Liquid Crystal library.
+</span><span style="color:#6272a4"></span>  <span style="color:#ff79c6">#include</span> <span style="color:#ff79c6">&lt;LiquidCrystal.h&gt;</span><span style="color:#ff79c6">
+</span><span style="color:#ff79c6"></span>
+<span style="color:#6272a4">// Initialize the library with the numbers of the interface pins.
+</span><span style="color:#6272a4"></span>  LiquidCrystal <span style="color:#50fa7b">lcd</span>(<span style="color:#bd93f9">7</span>, <span style="color:#bd93f9">8</span>, <span style="color:#bd93f9">9</span>, <span style="color:#bd93f9">10</span>, <span style="color:#bd93f9">11</span>, <span style="color:#bd93f9">12</span>);
 
-  // Initialize the library with the numbers of the interface pins.
-  LiquidCrystal lcd(7, 8, 9, 10, 11, 12);
+    <span style="color:#8be9fd">void</span> <span style="color:#50fa7b">setup</span>() {
+    <span style="color:#6272a4">// set up the LCD&#39;s number of columns and rows:
+</span><span style="color:#6272a4"></span>    lcd.begin(<span style="color:#bd93f9">16</span>, <span style="color:#bd93f9">2</span>);
 
-  void setup() {
-    // set up the LCD's number of columns and rows:
-    lcd.begin(16, 2);
+  <span style="color:#6272a4">// Print a message to the LCD. You can print whatever message you want.
+</span><span style="color:#6272a4"></span>    lcd.print(<span style="color:#f1fa8c">&#34;Hello, World!&#34;</span>);
+    }
 
-    // Print a message to the LCD. You can print whatever message you want.
-    lcd.print(&quot;Hello, World!&quot;);
-  }
-
-    void loop() {
-      // set the cursor to column 0, line 1
-      // (note: line 1 is the second row, since counting begins with 0):
-      // This is where the word or phrase will start.
-      lcd.setCursor(0, 1);
-  }
-</code></pre><hr>
+<span style="color:#8be9fd">void</span> <span style="color:#50fa7b">loop</span>() {
+  <span style="color:#6272a4">// set the cursor to column 0, line 1
+</span><span style="color:#6272a4"></span>  <span style="color:#6272a4">// (note: line 1 is the second row, since counting begins with 0):
+</span><span style="color:#6272a4"></span>  <span style="color:#6272a4">// This is where the word or phrase will start.
+</span><span style="color:#6272a4"></span>lcd.setCursor(<span style="color:#bd93f9">0</span>, <span style="color:#bd93f9">1</span>);
+}
+</code></pre></div><hr>
 <p>If you did everything properly this is what you should end up with.</p>
 <p><img src="/images/Complete.jpg" alt="Finished Product"></p>
 <!--more-->
@@ -128,7 +128,7 @@
 
 	<footer>
 	<br />
-	<p>&copy; 2020 <a href="https://github.com/co1ncidence"><b>nuaNce</b></a>  -  <a href="https://co1ncidence.github.io/index.xml"><b>rss feed</b></a>
+	<p>&copy; 2020 - <a href="https://github.com/co1ncidence"><b>Ayad Masud</b></a>
 	</p>
 </footer>
 

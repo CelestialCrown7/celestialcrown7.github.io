@@ -6,7 +6,7 @@ In this article you will learn how to use an LCD Display to display things with 
 
 <!--more-->
 
-# Components
+## Components
 The components you will need for this project are:
 - Arduino Uno R3
 - LCD Display Module
@@ -18,10 +18,10 @@ The components you will need for this project are:
 
 ------------------------------------
 
-# LCD Display
+## LCD Display
 Your LCD display should have 16 pins coming out from the bottom.
 
-![LCD Pins](/images/LCDPins.jpg)
+![LCD Pins](https://i.postimg.cc/GtRWTtHV/Arduino-LCD-Set-Up-and-Programming-Guide-LCD-Pinout.png)
 
 Each pin has different functions:
 - VSS: Pin that connects to ground.
@@ -35,7 +35,7 @@ Each pin has different functions:
 
 -------------------------------------------
 
-# Connection Schematic
+## Connection Schematic
 
 ![Connection Schematic](/images/CS.jpg)
 
@@ -43,7 +43,7 @@ The LCD display needs 6 arduino pins, all set to be digital outputs. It also nee
 
 ----------------------------------------
 
-# Wiring Diagram
+## Wiring Diagram
 The wiring should look something like this.
 
 ![Wiring Diagram](/images/WD.jpg)
@@ -52,30 +52,30 @@ The wiring should look something like this.
 
 -------------------------------------------
 
-# Code
+## Code
 To use this code you should download the [Arduino IDE](https://www.arduino.cc/en/main/software) so you can load it onto your Arduino Uno. You will also need the [Liquid Crystal](https://www.arduinolibraries.info/libraries/liquid-crystal) library to run this code.
 
-```
-  // Include the Liquid Crystal library.
+```cpp
+// Include the Liquid Crystal library.
   #include <LiquidCrystal.h>
 
-  // Initialize the library with the numbers of the interface pins.
+// Initialize the library with the numbers of the interface pins.
   LiquidCrystal lcd(7, 8, 9, 10, 11, 12);
 
-  void setup() {
+    void setup() {
     // set up the LCD's number of columns and rows:
     lcd.begin(16, 2);
 
-    // Print a message to the LCD. You can print whatever message you want.
+  // Print a message to the LCD. You can print whatever message you want.
     lcd.print("Hello, World!");
-  }
+    }
 
-    void loop() {
-      // set the cursor to column 0, line 1
-      // (note: line 1 is the second row, since counting begins with 0):
-      // This is where the word or phrase will start.
-      lcd.setCursor(0, 1);
-  }
+void loop() {
+  // set the cursor to column 0, line 1
+  // (note: line 1 is the second row, since counting begins with 0):
+  // This is where the word or phrase will start.
+lcd.setCursor(0, 1);
+}
 ```
 
 ---------------------------------------------------

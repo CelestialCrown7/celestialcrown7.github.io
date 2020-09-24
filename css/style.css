@@ -2,36 +2,19 @@
 
 /* ---------  Root Vars ---------- */
 :root {
-  --bg1:      #f0f0f0;
-  --bg2:      #e7e7e7;
-  --bg3:      #e7e7e7;
-  --fg1:      #363636;
-  --fg2:      #4c4c4c;
-  --fg3:      #535353;
-  --title1:   #a36e87;
-  --title2:   #ba92a5;
-  --link1:    #538083;
-  --link2:    #63979b;
+  --bg1:      #20212b;
+  --bg2:      #393c4d;
+  --bg3:      #494d63;
+  --fg1:      #f8f8f2;
+  --fg2:      #f1f1e5;
+  --fg3:      #eaead9;
+  --title1:   #ff5555;
+  --title2:   #ff7c7c;
+  --link1:    #8be9fd;
+  --link2:    #17d3fb;
   --code:     #2f1e2e;
   --seltext:  #C7ECF7;
 }
-
-/* @media(prefers-color-scheme:dark) { */
-/*   :root { */
-/*     --bg1:      #363636; */
-/*     --bg2:      #494949; */
-/*     --bg3:      #535353; */
-/*     --fg1:      #ececec; */
-/*     --fg2:      #e7e7e7; */
-/*     --fg3:      #f5f5f5; */
-/*     --title1:   #C49EA0; */
-/*     --title2:   #ac8a8c; */
-/*     --link1:    #b4c2c2; */
-/*     --link2:    #becbcb; */
-/*     --code:     #e7e7e7; */
-/*     --seltext:  #C7ECF7; */
-/*   } */
-/* } */
 
 /* ---------  Main Things ---------  */
 
@@ -121,11 +104,6 @@ time {
   font-family: 'Source Code Pro', monospace;
   font-size: 3em;
   color: var(--title1);
-  text-shadow: 1px 1px 0px rgba(150, 150, 150, 0.43);
-  border: 2px solid #2f1e2e;
-  -webkit-box-shadow: 10px 10px 0px -2px rgba(44,44,44,0.21);
-  -moz-box-shadow: 10px 10px 0px -2px rgba(44,44,44,0.21);
-  box-shadow: 10px 10px 0px -2px rgba(44,44,44,0.21);
 }
 
 .title:hover {
@@ -144,12 +122,8 @@ nav {
   padding-top: 20px;
   padding-bottom: 20px;
   margin-bottom: 1em;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Source Code Pro", monospace;
   font-size: 1.4em;
-  border: 2px solid #2f1e2e;
-  -webkit-box-shadow: 10px 10px 0px -2px rgba(44,44,44,0.21);
-  -moz-box-shadow: 10px 10px 0px -2px rgba(44,44,44,0.21);
-  box-shadow: 10px 10px 0px -2px rgba(44,44,44,0.21);
 }
 
 /* ---------  Links ---------  */
@@ -194,7 +168,7 @@ pre {
   margin-top: 30px;
   margin-bottom: 30px;
 	padding: 28px;
-  border: 5px solid #533551;
+  border: 5px solid #52566e;
 }
 
 /* ---------- Articles --------- */
@@ -220,8 +194,8 @@ article {
 }
 
 .mid-image, figure.mid img, img[src*="mid"] {)
-  width: 50%;
-  margin: 0 auto;
+  width: 10%;
+  height: 10%;
 }
 
 /* ---------  Quotes ---------  */
@@ -274,11 +248,11 @@ table thead {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #e0cedf;
+    background: #aeb1c3;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #e8dae7;
+    background: #d0d1dc;
 }
 
 /* ---------  Text Selection ---------  */
