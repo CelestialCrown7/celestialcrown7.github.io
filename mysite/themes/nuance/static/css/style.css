@@ -21,21 +21,25 @@
 html {
   overflow-y: scroll;
   -webkit-font-smoothing: antialiased;
+  background-color: #181820;
 }
 
 body {
   max-width: 800px;
   width: 100vw;
-  margin: 0 auto;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
-  padding-left: 10vw;
-  padding-right: 10vw;
+  margin: 10vh auto;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
   font-family: 'Source Code Pro', monospace;
   font-size: 18px;
   line-height: 30px;
   background-color: var(--bg1);
   color: var(--fg1);
+  -webkit-box-shadow: 20px 20px 0px 0px rgba(15,16,21,0.6);
+  -moz-box-shadow: 20px 20px 0px 0px rgba(15,16,21,0.6);
+  box-shadow: 20px 20px 0px 0px rgba(15,16,21,0.6);
 }
 
 /* ---------  Headers ---------  */
@@ -101,9 +105,12 @@ time {
   display: block;
   padding-top: 40px;
   padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
   font-family: 'Source Code Pro', monospace;
   font-size: 3em;
   color: var(--title1);
+  background-color: #282a36;
 }
 
 .title:hover {

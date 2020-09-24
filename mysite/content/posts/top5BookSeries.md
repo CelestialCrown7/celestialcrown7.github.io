@@ -9,8 +9,6 @@ Since I am a big fan of fantasy book series, this post will be only fantasy book
 
 ## [The Wheel of Time](https://dragonmount.com/Books/index/)
 
----
-
 Author: Robert Jordan
 
 Number of books: 16 books
@@ -27,8 +25,6 @@ When The Two Rivers is attacked by Trollocs-a savage tribe of half-men, half-bea
 
 ## [Throne of Glass](https://sarahjmaas.com/throneofglass/)
 
----
-
 Author: Sarah J. Maas
 
 Number of books: 12 books
@@ -40,8 +36,6 @@ Her opponents are men-thieves and assassins and warriors from across the empire,
 Then one of the other contestants turns up dead ... quickly followed by another. Can Celaena figure out who the killer is before she becomes a victim? As the young assassin investigates, her search leads her to discover a greater destiny than she could possibly have imagined.
 
 ## [Falling Kingdoms](http://www.fallingkingdoms.com/)
-
----
 
 Author: Morgan Rhodes
 
@@ -65,8 +59,6 @@ Heir: Bred for aggression and trained to conquer, firstborn son Magnus begins to
 
 ## [The Mortal Instruments](https://www.cassandraclare.com/series/the-mortal-instruments/)
 
----
-
 Author: Cassandra Clare
 
 Number of books: 8 books
@@ -76,8 +68,6 @@ When fifteen-year-old Clary Fray heads out to the Pandemonium Club in New York C
 This is Clary's first meeting with the Shadowhunters, warriors dedicated to ridding the earth of demons. It's also her first encounter with Jace, a Shadowhunter who looks a little like an angel and acts a lot like a jerk. Within twenty-four hours Clary is pulled into Jace's world with a vengeance when her mother disappears and Clary herself is attacked by a demon. But why would demons be interested in ordinary mundanes like Clary and her mother? And how did Clary suddenly get the Sight? The Shadowhunters would like to know...
 
 ## [Rangers Apprentice](http://www.worldofjohnflanagan.com/rangers-apprentice/)
-
----
 
 Author: John Flanagan
 
