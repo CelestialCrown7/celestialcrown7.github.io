@@ -12,7 +12,7 @@
   --title2:   #ff7c7c;
   --link1:    #8be9fd;
   --link2:    #17d3fb;
-  --code:     #2f1e2e;
+  --code:     #eaead9;
   --seltext:  #C7ECF7;
 }
 
@@ -32,8 +32,8 @@ body {
   padding-bottom: 5vh;
   padding-left: 5vw;
   padding-right: 5vw;
-  font-family: 'Source Code Pro', monospace;
-  font-size: 18px;
+  font-family: 'Fanwood Text', monospace;
+  font-size: 20px;
   line-height: 30px;
   background-color: var(--bg1);
   color: var(--fg1);
@@ -50,8 +50,8 @@ header {
 }
 
 h1 {
-  text-align: center;
-  font-family: 'Source Code Pro', monospace;
+  /* text-align: center; */
+  font-family: 'Quattrocento', monospace;
   font-size: 32px;
   color: var(--fg2);
   line-height: 1.3;
@@ -65,7 +65,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Quattrocento', monospace;
   color: var(--fg2);
   line-height: 1.2;
   text-rendering: optimizeLegibility;
@@ -107,10 +107,13 @@ time {
   padding-bottom: 40px;
   padding-left: 20px;
   padding-right: 20px;
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Fanwood Text', monospace;
   font-size: 3em;
   color: var(--title1);
   background-color: #282a36;
+  -webkit-box-shadow: 10px 10px 0px 0px rgba(24,24,32,1);
+  -moz-box-shadow: 10px 10px 0px 0px rgba(24,24,32,1);
+  box-shadow: 10px 10px 0px 0px rgba(24,24,32,1);
 }
 
 .title:hover {
@@ -124,13 +127,17 @@ nav {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  width: 85%;
+  width: 55%;
   color: var(--link1);
   padding-top: 20px;
   padding-bottom: 20px;
   margin-bottom: 1em;
-  font-family: "Source Code Pro", monospace;
+  font-family: "Fanwood Text", monospace;
   font-size: 1.4em;
+  background-color: #282a36;
+  -webkit-box-shadow: 10px 10px 0px 0px rgba(24,24,32,1);
+  -moz-box-shadow: 10px 10px 0px 0px rgba(24,24,32,1);
+  box-shadow: 10px 10px 0px 0px rgba(24,24,32,1);
 }
 
 /* ---------  Links ---------  */
@@ -176,6 +183,9 @@ pre {
   margin-bottom: 30px;
 	padding: 28px;
   border: 5px solid #52566e;
+  -webkit-box-shadow: 10px 10px 0px 0px rgba(24,24,32,1);
+  -moz-box-shadow: 10px 10px 0px 0px rgba(24,24,32,1);
+  box-shadow: 10px 10px 0px 0px rgba(24,24,32,1);
 }
 
 /* ---------- Articles --------- */
@@ -215,12 +225,10 @@ blockquote {
   position: relative;
   color: var(--fg3);
   background-color: var(--bg2);
-  border: 2px solid #c9aac7;
-  border-left: 6px solid #c9aac7;
   font-size: 16px;
-  -webkit-box-shadow: 5px 5px 0px 0px rgba(232,218,231,1);
-  -moz-box-shadow: 5px 5px 0px 0px rgba(232,218,231,1);
-  box-shadow: 5px 5px 0px 0px rgba(232,218,231,1);
+  -webkit-box-shadow: 10px 10px 0px 0px rgba(24,24,32,1);
+  -moz-box-shadow: 10px 10px 0px 0px rgba(24,24,32,1);
+  box-shadow: 10px 10px 0px 0px rgba(24,24,32,1);
 }
 
 /* ---------  Table ---------  */
