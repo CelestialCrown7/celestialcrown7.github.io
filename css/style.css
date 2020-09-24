@@ -1,0 +1,292 @@
+@import "fonts.css";
+
+/* ---------  Root Vars ---------- */
+:root {
+  --bg1:      #f0f0f0;
+  --bg2:      #e7e7e7;
+  --bg3:      #e7e7e7;
+  --fg1:      #363636;
+  --fg2:      #4c4c4c;
+  --fg3:      #535353;
+  --title1:   #a36e87;
+  --title2:   #ba92a5;
+  --link1:    #538083;
+  --link2:    #63979b;
+  --code:     #2f1e2e;
+  --seltext:  #C7ECF7;
+}
+
+/* @media(prefers-color-scheme:dark) { */
+/*   :root { */
+/*     --bg1:      #363636; */
+/*     --bg2:      #494949; */
+/*     --bg3:      #535353; */
+/*     --fg1:      #ececec; */
+/*     --fg2:      #e7e7e7; */
+/*     --fg3:      #f5f5f5; */
+/*     --title1:   #C49EA0; */
+/*     --title2:   #ac8a8c; */
+/*     --link1:    #b4c2c2; */
+/*     --link2:    #becbcb; */
+/*     --code:     #e7e7e7; */
+/*     --seltext:  #C7ECF7; */
+/*   } */
+/* } */
+
+/* ---------  Main Things ---------  */
+
+html {
+  overflow-y: scroll;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  max-width: 800px;
+  width: 100vw;
+  margin: 0 auto;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 18px;
+  line-height: 30px;
+  background-color: var(--bg1);
+  color: var(--fg1);
+}
+
+/* ---------  Headers ---------  */
+
+header {
+  color: var(--fg1);
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 32px;
+  color: var(--fg2);
+  line-height: 1.3;
+  padding-bottom: 7px;
+  text-rendering: optimizeLegibility;
+  border-bottom: 2px solid var(--fg2);
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Source Code Pro', monospace;
+  color: var(--fg2);
+  line-height: 1.2;
+  text-rendering: optimizeLegibility;
+}
+
+/* ---------- Post Title ------------ */
+
+.postitle {
+  color: var(--fg2);
+  text-decoration: none;
+}
+
+.postitle:hover {
+  color: var(--title1);
+  text-decoration: none;
+}
+
+/* ---------  Time Published ---------  */
+
+time {
+  display: block;
+  color: var(--fg2);
+  line-height: 2;
+  margin-top: -0.7em;
+  margin-bottom: -0.7em;
+}
+
+/* ---------  Website Title ---------  */
+
+.title {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 3em;
+  color: var(--title1);
+  text-shadow: 1px 1px 0px rgba(150, 150, 150, 0.43);
+  border: 2px solid #2f1e2e;
+  -webkit-box-shadow: 10px 10px 0px -2px rgba(44,44,44,0.21);
+  -moz-box-shadow: 10px 10px 0px -2px rgba(44,44,44,0.21);
+  box-shadow: 10px 10px 0px -2px rgba(44,44,44,0.21);
+}
+
+.title:hover {
+  color: var(--title2);
+}
+
+/* ---------  Nav bar ---------  */
+
+nav {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 85%;
+  color: var(--link1);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 1em;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 1.4em;
+  border: 2px solid #2f1e2e;
+  -webkit-box-shadow: 10px 10px 0px -2px rgba(44,44,44,0.21);
+  -moz-box-shadow: 10px 10px 0px -2px rgba(44,44,44,0.21);
+  box-shadow: 10px 10px 0px -2px rgba(44,44,44,0.21);
+}
+
+/* ---------  Links ---------  */
+
+a {
+  color: var(--link1);
+  text-decoration: underline;
+}
+
+a:hover,
+a:focus {
+  color: var(--link2);
+  text-decoration: none;
+}
+
+/* ---------  Code ---------  */
+
+code {
+  font-family: monospace;
+}
+
+p > code {
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin-right: 0.1em;
+  margin-left: 0.1em;
+  color: var(--bg1);
+  background-color: var(--code);
+  font-size: 0.9em;
+}
+
+pre {
+  box-sizing: border-box;
+  white-space: pre;
+	width: 100%;
+	overflow: auto;
+	overflow-y: hidden;
+	font-size: 16px;
+	line-height: 1.8;
+  margin-top: 30px;
+  margin-bottom: 30px;
+	padding: 28px;
+  border: 5px solid #533551;
+}
+
+/* ---------- Articles --------- */
+
+article {
+  padding: 24px 0;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+/* ---------  Images ---------  */
+
+.image, figure img, img {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.mid-image, figure.mid img, img[src*="mid"] {)
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* ---------  Quotes ---------  */
+
+blockquote {
+  margin-left: 0em;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 0.2em 2em;
+  position: relative;
+  color: var(--fg3);
+  background-color: var(--bg2);
+  border: 2px solid #c9aac7;
+  border-left: 6px solid #c9aac7;
+  font-size: 16px;
+  -webkit-box-shadow: 5px 5px 0px 0px rgba(232,218,231,1);
+  -moz-box-shadow: 5px 5px 0px 0px rgba(232,218,231,1);
+  box-shadow: 5px 5px 0px 0px rgba(232,218,231,1);
+}
+
+/* ---------  Table ---------  */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  color: var(--fg1);
+  background-color: var(--bg1);
+}
+
+table th {
+  background-color: var(--fg2);
+  color: var(--bg2);
+}
+
+table th, table td {
+  padding: 5px 10px;
+  border-bottom: 2px solid var(--fg2);
+  border-right: 4px solid var(--bg1);
+}
+
+table thead {
+  background-color: transparent;
+}
+
+/* ---------  Scrollbar ---------  */
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #e0cedf;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #e8dae7;
+}
+
+/* ---------  Text Selection ---------  */
+
+::-moz-selection {
+  background: var(--seltext);
+}
+
+::selection {
+  background: var(--seltext);
+}

@@ -2,68 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Celestial Crown</title>
-    <link>https://CelestialCrown7.github.io/tags/</link>
+    <link>https://celestialcrown7.github.io/tags/</link>
     <description>Recent content in Tags on Celestial Crown</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 05 Aug 2020 12:15:51 -0500</lastBuildDate>
     
-	<atom:link href="https://CelestialCrown7.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://celestialcrown7.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Arduino</title>
-      <link>https://CelestialCrown7.github.io/tags/arduino/</link>
-      <pubDate>Wed, 05 Aug 2020 12:15:51 -0500</pubDate>
-      
-      <guid>https://CelestialCrown7.github.io/tags/arduino/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Coding</title>
-      <link>https://CelestialCrown7.github.io/tags/coding/</link>
-      <pubDate>Wed, 05 Aug 2020 12:15:51 -0500</pubDate>
-      
-      <guid>https://CelestialCrown7.github.io/tags/coding/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Books</title>
-      <link>https://CelestialCrown7.github.io/tags/books/</link>
-      <pubDate>Mon, 03 Aug 2020 19:57:54 -0500</pubDate>
-      
-      <guid>https://CelestialCrown7.github.io/tags/books/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fantasy</title>
-      <link>https://CelestialCrown7.github.io/tags/fantasy/</link>
-      <pubDate>Mon, 03 Aug 2020 19:57:54 -0500</pubDate>
-      
-      <guid>https://CelestialCrown7.github.io/tags/fantasy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Terminal</title>
-      <link>https://CelestialCrown7.github.io/tags/terminal/</link>
-      <pubDate>Mon, 03 Aug 2020 19:48:35 -0500</pubDate>
-      
-      <guid>https://CelestialCrown7.github.io/tags/terminal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Markdown Syntax</title>
-      <link>https://CelestialCrown7.github.io/tags/markdown-syntax/</link>
-      <pubDate>Mon, 03 Aug 2020 17:36:41 -0500</pubDate>
-      
-      <guid>https://CelestialCrown7.github.io/tags/markdown-syntax/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
