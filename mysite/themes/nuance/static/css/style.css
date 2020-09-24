@@ -32,7 +32,7 @@ body {
   padding-bottom: 5vh;
   padding-left: 5vw;
   padding-right: 5vw;
-  font-family: 'Fanwood Text', monospace;
+  font-family: 'Monda', monospace;
   font-size: 20px;
   line-height: 30px;
   background-color: var(--bg1);
@@ -51,7 +51,7 @@ header {
 
 h1 {
   /* text-align: center; */
-  font-family: 'Quattrocento', monospace;
+  font-family: 'Monda', monospace;
   font-size: 32px;
   color: var(--fg2);
   line-height: 1.3;
@@ -65,7 +65,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Quattrocento', monospace;
+  font-family: 'Monda', monospace;
   color: var(--fg2);
   line-height: 1.2;
   text-rendering: optimizeLegibility;
@@ -96,7 +96,7 @@ time {
 /* ---------  Website Title ---------  */
 
 .title {
-  width: 70%;
+  width: 75%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
@@ -107,7 +107,7 @@ time {
   padding-bottom: 40px;
   padding-left: 20px;
   padding-right: 20px;
-  font-family: 'Fanwood Text', monospace;
+  font-family: 'Monda', monospace;
   font-size: 3em;
   color: var(--title1);
   background-color: #282a36;
@@ -132,7 +132,7 @@ nav {
   padding-top: 20px;
   padding-bottom: 20px;
   margin-bottom: 1em;
-  font-family: "Fanwood Text", monospace;
+  font-family: 'Monda', monospace;
   font-size: 1.4em;
   background-color: #282a36;
   -webkit-box-shadow: 10px 10px 0px 0px rgba(24,24,32,1);
