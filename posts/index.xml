@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Celestial Crown</title>
+    <link>https://celestialcrown7.github.io/posts/</link>
+    <description>Recent content in Posts on Celestial Crown</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 05 Aug 2020 12:15:51 -0500</lastBuildDate>
+    
+	<atom:link href="https://celestialcrown7.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>LCD Display with Arduino</title>
+      <link>https://celestialcrown7.github.io/posts/lcddisplay/</link>
+      <pubDate>Wed, 05 Aug 2020 12:15:51 -0500</pubDate>
+      
+      <guid>https://celestialcrown7.github.io/posts/lcddisplay/</guid>
+      <description>&lt;p&gt;In this article you will learn how to use an LCD Display to display things with your Arduino.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Top 5 Book Series</title>
+      <link>https://celestialcrown7.github.io/posts/top5bookseries/</link>
+      <pubDate>Mon, 03 Aug 2020 19:57:54 -0500</pubDate>
+      
+      <guid>https://celestialcrown7.github.io/posts/top5bookseries/</guid>
+      <description>&lt;p&gt;Since I am a big fan of fantasy book series, this post will be only fantasy book series.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Basic Terminal Commands</title>
+      <link>https://celestialcrown7.github.io/posts/terminalshortcuts/</link>
+      <pubDate>Mon, 03 Aug 2020 19:48:35 -0500</pubDate>
+      
+      <guid>https://celestialcrown7.github.io/posts/terminalshortcuts/</guid>
+      <description>&lt;p&gt;Here is a list of the most basic commands for terminal. To start using any of these commands, open terminal, type in the command, and press enter.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Markdown Syntax</title>
+      <link>https://celestialcrown7.github.io/posts/markdownsyntax/</link>
+      <pubDate>Mon, 03 Aug 2020 17:36:41 -0500</pubDate>
+      
+      <guid>https://celestialcrown7.github.io/posts/markdownsyntax/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

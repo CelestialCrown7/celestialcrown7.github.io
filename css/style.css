@@ -1,0 +1,281 @@
+@import "fonts.css";
+
+/* ---------  Root Vars ---------- */
+:root {
+  --bg1:      #20212b;
+  --bg2:      #393c4d;
+  --bg3:      #494d63;
+  --fg1:      #f8f8f2;
+  --fg2:      #f1f1e5;
+  --fg3:      #eaead9;
+  --title1:   #ff5555;
+  --title2:   #ff7c7c;
+  --link1:    #8be9fd;
+  --link2:    #17d3fb;
+  --code:     #eaead9;
+  --seltext:  #C7ECF7;
+}
+
+/* ---------  Main Things ---------  */
+
+html {
+  overflow-y: scroll;
+  -webkit-font-smoothing: antialiased;
+  background-color: #181820;
+}
+
+body {
+  max-width: 800px;
+  width: 100vw;
+  margin: 10vh auto;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  font-family: 'Fanwood Text', monospace;
+  font-size: 20px;
+  line-height: 30px;
+  background-color: var(--bg1);
+  color: var(--fg1);
+  -webkit-box-shadow: 20px 20px 0px 0px rgba(15,16,21,0.6);
+  -moz-box-shadow: 20px 20px 0px 0px rgba(15,16,21,0.6);
+  box-shadow: 20px 20px 0px 0px rgba(15,16,21,0.6);
+}
+
+/* ---------  Headers ---------  */
+
+header {
+  color: var(--fg1);
+  font-size: 20px;
+}
+
+h1 {
+  /* text-align: center; */
+  font-family: 'Quattrocento', monospace;
+  font-size: 32px;
+  color: var(--fg2);
+  line-height: 1.3;
+  padding-bottom: 7px;
+  text-rendering: optimizeLegibility;
+  border-bottom: 2px solid var(--fg2);
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Quattrocento', monospace;
+  color: var(--fg2);
+  line-height: 1.2;
+  text-rendering: optimizeLegibility;
+}
+
+/* ---------- Post Title ------------ */
+
+.postitle {
+  color: var(--fg2);
+  text-decoration: none;
+}
+
+.postitle:hover {
+  color: var(--title1);
+  text-decoration: none;
+}
+
+/* ---------  Time Published ---------  */
+
+time {
+  display: block;
+  color: var(--fg2);
+  line-height: 2;
+  margin-top: -0.7em;
+  margin-bottom: -0.7em;
+}
+
+/* ---------  Website Title ---------  */
+
+.title {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Fanwood Text', monospace;
+  font-size: 3em;
+  color: var(--title1);
+  background-color: #282a36;
+  -webkit-box-shadow: 10px 10px 0px 0px rgba(24,24,32,1);
+  -moz-box-shadow: 10px 10px 0px 0px rgba(24,24,32,1);
+  box-shadow: 10px 10px 0px 0px rgba(24,24,32,1);
+}
+
+.title:hover {
+  color: var(--title2);
+}
+
+/* ---------  Nav bar ---------  */
+
+nav {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 55%;
+  color: var(--link1);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 1em;
+  font-family: "Fanwood Text", monospace;
+  font-size: 1.4em;
+  background-color: #282a36;
+  -webkit-box-shadow: 10px 10px 0px 0px rgba(24,24,32,1);
+  -moz-box-shadow: 10px 10px 0px 0px rgba(24,24,32,1);
+  box-shadow: 10px 10px 0px 0px rgba(24,24,32,1);
+}
+
+/* ---------  Links ---------  */
+
+a {
+  color: var(--link1);
+  text-decoration: underline;
+}
+
+a:hover,
+a:focus {
+  color: var(--link2);
+  text-decoration: none;
+}
+
+/* ---------  Code ---------  */
+
+code {
+  font-family: monospace;
+}
+
+p > code {
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin-right: 0.1em;
+  margin-left: 0.1em;
+  color: var(--bg1);
+  background-color: var(--code);
+  font-size: 0.9em;
+}
+
+pre {
+  box-sizing: border-box;
+  white-space: pre;
+	width: 100%;
+	overflow: auto;
+	overflow-y: hidden;
+	font-size: 16px;
+	line-height: 1.8;
+  margin-top: 30px;
+  margin-bottom: 30px;
+	padding: 28px;
+  border: 5px solid #52566e;
+  -webkit-box-shadow: 10px 10px 0px 0px rgba(24,24,32,1);
+  -moz-box-shadow: 10px 10px 0px 0px rgba(24,24,32,1);
+  box-shadow: 10px 10px 0px 0px rgba(24,24,32,1);
+}
+
+/* ---------- Articles --------- */
+
+article {
+  padding: 24px 0;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+/* ---------  Images ---------  */
+
+.image, figure img, img {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.mid-image, figure.mid img, img[src*="mid"] {)
+  width: 10%;
+  height: 10%;
+}
+
+/* ---------  Quotes ---------  */
+
+blockquote {
+  margin-left: 0em;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 0.2em 2em;
+  position: relative;
+  color: var(--fg3);
+  background-color: var(--bg2);
+  font-size: 16px;
+  -webkit-box-shadow: 10px 10px 0px 0px rgba(24,24,32,1);
+  -moz-box-shadow: 10px 10px 0px 0px rgba(24,24,32,1);
+  box-shadow: 10px 10px 0px 0px rgba(24,24,32,1);
+}
+
+/* ---------  Table ---------  */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  color: var(--fg1);
+  background-color: var(--bg1);
+}
+
+table th {
+  background-color: var(--fg2);
+  color: var(--bg2);
+}
+
+table th, table td {
+  padding: 5px 10px;
+  border-bottom: 2px solid var(--fg2);
+  border-right: 4px solid var(--bg1);
+}
+
+table thead {
+  background-color: transparent;
+}
+
+/* ---------  Scrollbar ---------  */
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #aeb1c3;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #d0d1dc;
+}
+
+/* ---------  Text Selection ---------  */
+
+::-moz-selection {
+  background: var(--seltext);
+}
+
+::selection {
+  background: var(--seltext);
+}
