@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<style type=text/css>body{font-family:monospace;}</style>
+	<title>LCD Display with Arduino</title>
+	
+	<meta name="author" content="Ayad Masud">
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/style.css?rnd=1600972025">
+	
+</head>
+<body>
+	<header>
+	<a class="title" href="https://celestialcrown7.github.io/">Celestial Crown</a>
+	
+	<p>
+	<nav>
+			
+			
+			<a style="text-decoration: none" href="/about/"><b>About /</b></a>
+			
+			<a style="text-decoration: none" href="/vibe/"><b>Vibe /</b></a>
+			
+	</nav>
+	</p>
+	
+</header>
+
+	
+	<main>
+		<article>
+			<h1>LCD Display with Arduino</h1>
+			
+		       
+
+			<div>
+				<p>In this article you will learn how to use an LCD Display to display things with your Arduino.</p>
+<h1 id="components">Components</h1>
+<p>The components you will need for this project are:</p>
+<ul>
+<li>Arduino Uno R3</li>
+<li>LCD Display Module</li>
+<li>10k Potentimeter</li>
+<li>Breadboard</li>
+<li>16 male-to-male jumper wires</li>
+</ul>
+<p><img src="/images/Arduino.jpg" alt="Components"></p>
+<hr>
+<h1 id="lcd-display">LCD Display</h1>
+<p>Your LCD display should have 16 pins coming out from the bottom.</p>
+<p><img src="/images/LCDPins.jpg" alt="LCD Pins"></p>
+<p>Each pin has different functions:</p>
+<ul>
+<li>VSS: Pin that connects to ground.</li>
+<li>VDD: Pin that connects to a 5v power supply.</li>
+<li>VO: Adjusts the contrast of the display.</li>
+<li>RS: A register selecting pin that controls where your writing data goes in the LCD&rsquo;s memory.</li>
+<li>R/W: Read/write pin.</li>
+<li>E: An enabling pin that, when supplied with low-level energy, causes the LCD module to carry out certain instructions.</li>
+<li>D0-D7: Pins that read or write data.</li>
+<li>A and K: Pins that control the LED backlight.</li>
+</ul>
+<hr>
+<h1 id="connection-schematic">Connection Schematic</h1>
+<p><img src="/images/CS.jpg" alt="Connection Schematic"></p>
+<p>The LCD display needs 6 arduino pins, all set to be digital outputs. It also needs ground and 5v connections.</p>
+<hr>
+<h1 id="wiring-diagram">Wiring Diagram</h1>
+<p>The wiring should look something like this.</p>
+<p><img src="/images/WD.jpg" alt="Wiring Diagram"></p>
+<p><img src="/images/WD2.jpg" alt="Wiring Diagram"></p>
+<hr>
+<h1 id="code">Code</h1>
+<p>To use this code you should download the <a href="https://www.arduino.cc/en/main/software">Arduino IDE</a> so you can load it onto your Arduino Uno. You will also need the <a href="https://www.arduinolibraries.info/libraries/liquid-crystal">Liquid Crystal</a> library to run this code.</p>
+<pre><code>  // Include the Liquid Crystal library.
+  #include &lt;LiquidCrystal.h&gt;
+
+  // Initialize the library with the numbers of the interface pins.
+  LiquidCrystal lcd(7, 8, 9, 10, 11, 12);
+
+  void setup() {
+    // set up the LCD's number of columns and rows:
+    lcd.begin(16, 2);
+
+    // Print a message to the LCD. You can print whatever message you want.
+    lcd.print(&quot;Hello, World!&quot;);
+  }
+
+    void loop() {
+      // set the cursor to column 0, line 1
+      // (note: line 1 is the second row, since counting begins with 0):
+      // This is where the word or phrase will start.
+      lcd.setCursor(0, 1);
+  }
+</code></pre><hr>
+<p>If you did everything properly this is what you should end up with.</p>
+<p><img src="/images/Complete.jpg" alt="Finished Product"></p>
+<!--more-->
+			</div>
+		</article>
+	</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<footer>
+	<br />
+	<p>&copy; 2020 <a href="https://github.com/co1ncidence"><b>nuaNce</b></a>  -  <a href="https://co1ncidence.github.io/index.xml"><b>rss feed</b></a>
+	</p>
+</footer>
+
+</body>
+</html>
