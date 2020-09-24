@@ -5,13 +5,16 @@ title = "Celestial Crown"
 theme = "nuance"
 paginate = 10
 
+disqusShortname = ""
+googleAnalytics = ""
+
 [author]
   name = "Ayad Masud"
 
 [params]
-   author = "Ayad Masud"
-   # description = "Just a place where I rant and sometimes say something smart"
-   # subTitle = "Garfield Hates Monday And So Do I"
+   author = "nuaNce"
+   description = "Just a place where I rant and sometimes say something smart"
+   subTitle = "Garfield Hates Monday And So Do I"
    dateFormat = "2006-01-02"
    paginationSinglePost = true
    customCSS = ["css/style.css"]
@@ -46,15 +49,15 @@ paginate = 10
     weight = 2
 
   [[menu.main]]
-    name = "Vibe /"
-    identifier = "archive"
+    name = "Vibe"
+    identifier = "vibe"
     url = "/vibe/"
-    weight = 3
+    weight = 4
 
 [social]
-  github = "https://www.github.com/co1ncidence/"
-  discord = "https://discord.gg/TnJ4h5K"
-  reddit = "https://www.reddit.com/user/fps_co1ncidence"
+  # github = "https://www.github.com/co1ncidence/"
+  # discord = "https://discord.gg/TnJ4h5K"
+  # reddit = "https://www.reddit.com/user/fps_co1ncidence"
 
 [taxonomies]
 category = "categories"
